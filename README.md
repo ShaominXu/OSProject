@@ -14,5 +14,5 @@ Edit dataset path in `config`
 
 ## Get attack type and location
 1. Edit TEST_DATASET in `config`
-2. Run `classification.py'
+2. Run `classification.py`
 3. Run `dt.py`
