@@ -11,3 +11,8 @@ Edit dataset path in `config`
 ## Evaluation
 1. Edit TEST_DATASET in `config`
 2. Run `evaluate.py`
+
+## Get attack type and location
+1. Edit TEST_DATASET in `config`
+2. Run `classification.py'
+3. Run `dt.py`
