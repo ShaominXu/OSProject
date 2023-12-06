@@ -64,5 +64,5 @@ def eval(data_path):
     print("Recall:", recall)
     print("F1 Score:", f1)
 
-
-eval(cfg.TEST_DATASET)
+if __name__ == '__main__':
+    eval(cfg.TEST_DATASET)
