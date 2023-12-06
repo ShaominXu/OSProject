@@ -55,5 +55,5 @@ def firewall_normal(data_path):
 
     return normal_commands
 
-
-normal_commands = firewall_normal(cfg.TEST_DATASET)
+if __name__ == '__main__':
+    normal_commands = firewall_normal(cfg.TEST_DATASET)
