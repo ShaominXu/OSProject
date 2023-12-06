@@ -20,7 +20,7 @@ def emp(nomral_commands):
 
     return normal_commands
 
-
-normal_commands = firewall_normal(cfg.TEST_DATASET)
-normal_commands = clf(normal_commands)[0]
-normal_commands = emp(normal_commands)
+if __name__ == '__main__':
+    normal_commands = firewall_normal(cfg.TEST_DATASET)
+    normal_commands = clf(normal_commands)[0]
+    normal_commands = emp(normal_commands)
