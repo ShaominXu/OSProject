@@ -53,6 +53,6 @@ def clf(normal_commands):
 
     return df[normal_instances], df[attack_instances]
 
-
-normal_commands = firewall_normal(cfg.TEST_DATASET)
-clf(normal_commands)
+if __name__ == '__main__':
+    normal_commands = firewall_normal(cfg.TEST_DATASET)
+    clf(normal_commands)
