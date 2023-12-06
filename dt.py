@@ -31,6 +31,7 @@ def de_recognize(attack_commands):
 
     return attack_types, locations
 
-normal_commands = firewall_normal(cfg.TEST_DATASET)
-attack_commands = clf(normal_commands)[1]
-attack_types = de_recognize(attack_commands)
+if __name__ == '__main__':
+    normal_commands = firewall_normal(cfg.TEST_DATASET)
+    attack_commands = clf(normal_commands)[1]
+    attack_types = de_recognize(attack_commands)
